@@ -38,6 +38,26 @@ main .banner {
   background-color: #ffe2e2;
 }
 
+main .banner img {
+  max-width: 100%;
+}
+
+main .menu {
+  overflow: auto;
+  margin: 0 auto;
+  width: 500px;
+}
+
+main .menu li {
+  list-style: none;
+  width: 100px;
+  background-color: green;
+  text-align: center;
+  color: white;
+  padding: 5px;
+  float: left;
+}
+
 main .element {
   padding: 10px;
   border: 1px solid black;
